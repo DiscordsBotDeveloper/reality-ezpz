@@ -44,6 +44,9 @@ image[nginx]="nginx:1.29.1"
 image[certbot]="certbot/certbot:v5.0.0"
 image[haproxy]="haproxy:3.2.6"
 image[python]="python:3.13-alpine"
+image[certbot]="certbot/certbot:v2.6.0"
+image[haproxy]="haproxy:2.8.0"
+image[python]="python:3.11-alpine"
 image[wgcf]="virb3/wgcf:2.2.29"
 
 defaults[transport]=tcp
